@@ -1,5 +1,5 @@
 {
-  "name": "vsfdqfpdpg/php-patten",
+  "name": "vsfdqfpdpg/PhpPatten",
   "description": "This is a php mvc framework.",
   "minimum-stability": "stable",
   "license": "proprietary",
@@ -10,9 +10,11 @@
     }
   ],
   "autoload" : {
+      "files" : [
+        "Src/functions.php"
+      ],
       "psr-4": {
-           "Src\\" : "Src",
-           "App\\" : "App"
+           "Src\\" : "Src"
       }
     }
 
